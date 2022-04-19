@@ -1,3 +1,25 @@
-body {
-    background-color: lightgray;
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('./../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('./../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./../fonts/montserrat-v23-latin/montserrat-v23-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
+
+@import "./../vendors/swiper/swiper-bundle.min.css";
+@import "./../vendors/fullcalendar/main.min.css";
+@import "./../vendors/choices/choices.min.css";
+@import "./../vendors/dropzone/dropzone.min.css";
+@import "./../vendors/overlayscrollbars/OverlayScrollbars.min.css";
+@import "./../vendors/flatpickr/flatpickr.min.css";
+@import "./../vendors/dropzone/dropzone.min.css";
+@import "./../vendors/prism/prism-okaidia.css";
+@import "../vendors/glightbox/glightbox.min.css";
+@import "./css/theme.css";
+@import "./css/user.css";
